@@ -4,9 +4,9 @@
 # =====================================================================
 
 # --- 1. Tell the AI about your page (do this ONCE) -------------------
-niche: "fitness tips for beginners"
-audience: "beginners who want simple and practical advice"
-language: "English"            # example: English, Hindi, Hinglish, Punjabi
+niche: "finance and money"
+audience: "USA and simple learnings"
+language: "English"            # example: English, 
 tone: "friendly, energetic, simple words"
 call_to_action: "end with a short question so people comment"
 
@@ -17,7 +17,7 @@ avoid_words: []                # words the AI must never use, example: ["cheap",
 
 # --- 3. How many reels per day and when ------------------------------
 timezone: "Asia/Kolkata"       # your timezone, example: America/New_York, Europe/London
-posts_per_day: 4               # <<< CHANGE THIS NUMBER (2, 3, 4, 5 ...)
+posts_per_day:2              # <<< CHANGE THIS NUMBER (2, 3, 4, 5 ...)
 window_start: "09:00"          # first post of the day (24-hour clock)
 window_end: "21:00"            # last post of the day
 # The reels are spread evenly between start and end.
