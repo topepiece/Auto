@@ -1,0 +1,5 @@
+Put your reel video files (.mp4 or .mov) in this folder.
+Name them in the order you want them posted, for example:
+  01.mp4, 02.mp4, 03.mp4 ... 30.mp4
+Use simple names: letters, numbers, dash or underscore. No spaces.
+You can delete this text file after you add your reels.

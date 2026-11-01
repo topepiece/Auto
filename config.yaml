@@ -1,0 +1,48 @@
+# =====================================================================
+#  YOUR SETTINGS.  Change only the text AFTER the colon ( : )
+#  Keep the quote marks "like this" where you see them.
+# =====================================================================
+
+# --- 1. Tell the AI about your page (do this ONCE) -------------------
+niche: "fitness tips for beginners"
+audience: "beginners who want simple and practical advice"
+language: "English"            # example: English, Hindi, Hinglish, Punjabi
+tone: "friendly, energetic, simple words"
+call_to_action: "end with a short question so people comment"
+
+# --- 2. Hashtags ------------------------------------------------------
+hashtag_count: 8               # how many hashtags the AI should choose (3 to 15 is good)
+always_hashtags: []            # tags added to EVERY reel, example: ["mybrand", "dailyfitness"]
+avoid_words: []                # words the AI must never use, example: ["cheap", "free money"]
+
+# --- 3. How many reels per day and when ------------------------------
+timezone: "Asia/Kolkata"       # your timezone, example: America/New_York, Europe/London
+posts_per_day: 4               # <<< CHANGE THIS NUMBER (2, 3, 4, 5 ...)
+window_start: "09:00"          # first post of the day (24-hour clock)
+window_end: "21:00"            # last post of the day
+# The reels are spread evenly between start and end.
+# Advanced: to choose exact times yourself, fill this list. If it is not empty,
+# it is used instead of posts_per_day. Example: ["09:00", "13:00", "18:30", "21:00"]
+post_times: []
+
+# --- 4. Safety settings (you can leave these as they are) ------------
+catchup_minutes: 240           # if GitHub is late, still post up to 4 hours after the planned time
+low_queue_warn: 5              # email me when only this many reels are left
+token_warn_days: 50            # email me when the Instagram token is this old (renew it)
+fallback_after_minutes: 120    # if Google AI stays busy, wait this long before using the backup caption
+prepare_ahead: 3               # write captions for the next 3 reels in advance (avoids busy-time problems)
+fallback_caption: "New reel for you! Tell me what you think in the comments."
+fallback_hashtags: ["reels", "instagood", "trending"]
+
+# AI models to try, in order. If one is busy or stops working, the next one is used.
+# The "lite" models are lighter and are usually less busy.
+gemini_models:
+  - "gemini-flash-latest"
+  - "gemini-2.5-flash"
+  - "gemini-flash-lite-latest"
+  - "gemini-2.5-flash-lite"
+  - "gemini-3-flash-preview"
+
+# Leave empty. Only needed if your reels are hosted somewhere else.
+video_base_url: ""
+graph_version: ""
